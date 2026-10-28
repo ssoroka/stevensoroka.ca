@@ -7,6 +7,7 @@
 <meta name="description" content="Help and answers for 15 Min Week.">
 <link rel="icon" href="/15minweek/img/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/contact.js" defer></script>
 </head>
 <body>
 <header class="site-header">
@@ -56,10 +57,11 @@
     </details>
   </div>
 
-  <h2>Contact</h2>
+  <h2 id="contact">Contact</h2>
   <div class="contact-box">
     <p>Found a bug, have an idea, or need a hand? Email me. I read everything. You can also tap "Send feedback" in the app.</p>
-    <a class="button" href="mailto:steven@stevensoroka.ca?subject=15%20Min%20Week%20support">Email steven@stevensoroka.ca</a>
+    <a class="button" data-email data-email-subject="15 Min Week support" href="#contact">Email me</a>
+    <noscript><p>Email: steven [at] stevensoroka [dot] ca</p></noscript>
   </div>
 </main>
 
